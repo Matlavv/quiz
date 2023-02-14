@@ -1,0 +1,89 @@
+$indigo: #bb0bf08a;
+
+/** =============== Général =============== */
+p {
+    font-size: 1.3em;
+}
+/** =============== Header ================ */
+.span {
+    background-color: $indigo;
+}
+
+.logoConnexion {
+    font-size: 1.6em;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.nav-link:hover {
+    color: $indigo;
+    cursor: pointer;
+}
+
+/** ============= Image container ============== */
+img {
+    position: relative;
+    transition: transform .1s;
+    &:hover {
+        cursor: pointer;
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2);
+    }
+}
+
+/** ============ Paragraphe ================= */
+.pConnaissance {
+    background-color: $indigo;
+}
+
+/** ============ Footer ========== */
+/*FOOTER*/
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:100px;
+  }
+  
+  footer li a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer li a:hover {
+    color: $indigo;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+
+  /* footer Connexion */
+
+.connexionFooter {
+    background-color: $indigo;
+    &:hover {
+        cursor: pointer;
+        box-shadow: 3px 3px 2px rgb(56, 1, 56), -0.1em 0 0.1em rgb(56, 1, 56) ;
+    }
+    & a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
