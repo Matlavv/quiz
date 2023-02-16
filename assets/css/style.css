@@ -6,7 +6,7 @@ p {
 
 /** =============== Header ================ */
 .span {
-  background-color: rgba(187, 11, 240, 0.5411764706);
+  background-color: rgba(14, 135, 190, 0.541);
 }
 
 .logoConnexion {
@@ -18,7 +18,7 @@ header {
 }
 
 .nav-link:hover {
-  color: rgba(187, 11, 240, 0.5411764706);
+  color: rgba(14, 135, 190, 0.541);
   cursor: pointer;
 }
 
@@ -34,7 +34,7 @@ img:hover {
 
 /** ============ Paragraphe ================= */
 .pConnaissance {
-  background-color: rgba(187, 11, 240, 0.5411764706);
+  background-color: rgba(14, 135, 190, 0.541);
 }
 
 /** ============ Footer ========== */
@@ -53,7 +53,7 @@ footer li a {
 }
 
 footer li a:hover {
-  color: rgba(187, 11, 240, 0.5411764706);
+  color: rgba(14, 135, 190, 0.541);
   text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ footer li a:hover {
 
 /* footer Connexion */
 .connexionFooter {
-  background-color: rgba(187, 11, 240, 0.5411764706);
+  background-color: rgba(14, 135, 190, 0.541);
 }
 .connexionFooter:hover {
   cursor: pointer;

@@ -1,4 +1,4 @@
-$indigo: #bb0bf08a;
+$indigo: rgba(14, 135, 190, 0.541);
 
 /** =============== Général =============== */
 p {
@@ -31,6 +31,37 @@ img {
         -ms-transform: scale(1.2); /* IE 9 */
         -webkit-transform: scale(1.2); /* Safari 3-8 */
         transform: scale(1.2);
+    }
+}
+
+
+/** ============ Zone de Jeu ================ */
+.questions_screen {
+    display: none;
+}
+
+.list_questions {
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.6em;
+}
+
+.answersCorrect {
+    background-color: rgb(23, 206, 23);
+    width: 50%;
+    border-radius: 8px;
+}
+
+.answersWrong {
+    background-color: red;
+    border-radius: 8px;
+    width: 50%;
+}
+/** ============ Resultat ================== */
+.result_screen {
+    display: none;
+    & span {
+        font-size: 1.6em;
     }
 }
 

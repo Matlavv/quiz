@@ -6,7 +6,7 @@ p {
 
 /** =============== Header ================ */
 .span {
-  background-color: rgba(187, 11, 240, 0.5411764706);
+  background-color: rgba(14, 135, 190, 0.541);
 }
 
 .logoConnexion {
@@ -18,7 +18,7 @@ header {
 }
 
 .nav-link:hover {
-  color: rgba(187, 11, 240, 0.5411764706);
+  color: rgba(14, 135, 190, 0.541);
   cursor: pointer;
 }
 
@@ -32,9 +32,40 @@ img:hover {
   transform: scale(1.2);
 }
 
+/** ============ Zone de Jeu ================ */
+.questions_screen {
+  display: none;
+}
+
+.list_questions {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1.6em;
+}
+
+.answersCorrect {
+  background-color: rgb(23, 206, 23);
+  width: 50%;
+  border-radius: 8px;
+}
+
+.answersWrong {
+  background-color: red;
+  border-radius: 8px;
+  width: 50%;
+}
+
+/** ============ Resultat ================== */
+.result_screen {
+  display: none;
+}
+.result_screen span {
+  font-size: 1.6em;
+}
+
 /** ============ Paragraphe ================= */
 .pConnaissance {
-  background-color: rgba(187, 11, 240, 0.5411764706);
+  background-color: rgba(14, 135, 190, 0.541);
 }
 
 /** ============ Footer ========== */
@@ -53,7 +84,7 @@ footer li a {
 }
 
 footer li a:hover {
-  color: rgba(187, 11, 240, 0.5411764706);
+  color: rgba(14, 135, 190, 0.541);
   text-decoration: none;
 }
 
@@ -70,7 +101,7 @@ footer li a:hover {
 
 /* footer Connexion */
 .connexionFooter {
-  background-color: rgba(187, 11, 240, 0.5411764706);
+  background-color: rgba(14, 135, 190, 0.541);
 }
 .connexionFooter:hover {
   cursor: pointer;

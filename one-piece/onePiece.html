@@ -13,7 +13,7 @@
         <header class="py-4">
             <nav class="navbar navbar-expand-md ">
                 <div class="container">
-                    <a href="index.html" class="navbar-brand text-uppercase fw-bold"><span class="span p-1 rounded-3">MO</span>Quizz</a>            
+                    <a href="../index.html" class="navbar-brand text-uppercase fw-bold"><span class="span p-1 rounded-3">MO</span>Quizz</a>            
                     <div class="navbar-collapse justify-content-end">
                         <ul class="navbar-nav d-flex">
                             <li class="nav-item d-flex">
@@ -27,25 +27,33 @@
                 </div>
             </nav>
         </header>       
-        <div class="container mt-5">
+        <div class="container mt-5" id="img_container">
             <h1 class="fw-bold">Quiz One piece :</h1>
             <div class="row img-content d-flex mt-5">
-                <article class="col-md-12 col-sm-12 col-xl-6 d-flex justify-content-md-center">
-                    <a href="onePiece.html"><img src="assets/imgs/tome.png" class="rounded-bottom-5" width="450" height="380" alt="Quiz - one piece"></a>
-                </article>              
+                <!-- <article class="col-md-12 col-sm-12 col-xl-6 d-flex justify-content-md-center">
+                    <a onclick="startQuestions()"><img src="assets/imgs/tome.png" class="rounded-bottom-5" width="450" height="380" alt="Quiz - one piece"></a>
+                </article>               -->
                 <article class="col-md-12 col-sm-12 col-xl-6 mt-3 mt-xl-0 d-flex justify-content-md-center">
-                    <a href="harryPotter.html"><img src="assets/imgs/general.png" class="rounded-bottom-5" width="450" height="380" alt="Quiz - Harry Potter"></a>
+                    <a onclick="startQuestions()"><img src="assets/imgs/general.png" class="rounded-bottom-5" width="450" height="380" alt="Quiz - Harry Potter"></a>
                 </article>
             </div>
         </div>   
-        <div class="container mt-5 p-4 rounded-5 pConnaissance">
-            <h1 class="fw-bold">Testez vos connaissances.</h1>
-            <div class="row d-flex mt-4">
-                <section class="col-12">
-                    <p>Les questions s'affichent aléatoirement, ainsi vous pourrez faire de nouvelles découvertes à chaque parties !</p>
-                </section>
-            </div>
-        </div>           
+        <div class="container mt-5 questions_screen" id="questions_screen">
+        </div>     
+        <div class="container mt-5 result_screen" id="result_screen">
+          <h2 class="">Résultat</h2>
+          <span class="">Vous avez <span id="nbrCorrects"> ?? </span> réponses correctes</span>
+        </div>        
+    </div>
+    <div class="container mt-5 p-4 rounded-5 pConnaissance" id="pConnaissance">
+        <h1 class="fw-bold">Les quiz.</h1>
+        <div class="row d-flex mt-4">
+            <section class="col-12">
+                <p>Choisissez parmis deux modes de jeu ! L'un où il faut deviner le tome associé à sa couverture<br>
+                    L'autre où il faut répondre à des questions générales sur l'oeuvre.
+                </p>
+            </section>
+        </div>
     </div>
     <footer class="mainfooter" role="contentinfo">
         <div class="footer-middle">
@@ -92,6 +100,7 @@
         </div>
         </div>
       </footer>
+    <script src="assets/js/game.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
