@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/** =============== Général =============== */
+p {
+  font-size: 1.3em;
+}
+
+/** =============== Header ================ */
+.span {
+  background-color: rgba(14, 135, 190, 0.541);
+}
+
+.logoConnexion {
+  font-size: 1.6em;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+.nav-link:hover {
+  color: rgba(14, 135, 190, 0.541);
+  cursor: pointer;
+}
+
+/** ============= Image container ============== */
+img {
+  position: relative;
+  transition: transform 0.1s;
+}
+img:hover {
+  cursor: pointer; /* IE 9 */ /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+/** ============ Zone de Jeu ================ */
+.questions_screen {
+  display: none;
+}
+
+.list_questions {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1.6em;
+}
+
+.answersCorrect {
+  background-color: rgb(23, 206, 23);
+  width: 50%;
+  border-radius: 8px;
+}
+
+.answersWrong {
+  background-color: red;
+  border-radius: 8px;
+  width: 50%;
+}
+
+/** ============ Resultat ================== */
+.result_screen {
+  display: none;
+}
+.result_screen span {
+  font-size: 1.6em;
+}
+
+/** ============ Paragraphe ================= */
+.pConnaissance {
+  background-color: rgba(14, 135, 190, 0.541);
+}
+
+/** ============ Footer ========== */
+/*FOOTER*/
+footer {
+  background: #16222A;
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top: 100px;
+}
+
+footer li a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer li a:hover {
+  color: rgba(14, 135, 190, 0.541);
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+/* footer Connexion */
+.connexionFooter {
+  background-color: rgba(14, 135, 190, 0.541);
+}
+.connexionFooter:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 2px rgb(56, 1, 56), -0.1em 0 0.1em rgb(56, 1, 56);
+}
+.connexionFooter a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
